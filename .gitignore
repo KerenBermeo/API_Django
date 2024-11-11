@@ -1,0 +1,32 @@
+# Archivos de entorno
+.env
+
+# Archivos de configuración y caché de Python
+*.pyc
+*.pyo
+_pycache_/
+
+# Carpeta de entorno virtual (llamado "entorno")
+venv/
+
+# Base de datos SQLite (para desarrollo local)
+db.sqlite3
+
+# Archivos de migraciones de Django
+/migrations/.py
+/migrations/.pyc
+!/migrations/_init_.py
+
+# Archivos de logs
+*.log
+
+# Archivos generados por Django
+staticfiles/
+media/
+
+# Archivos y configuraciones de Visual Studio Code
+.vscode/
+
+# Archivos específicos de Windows
+Thumbs.db
+desktop.ini
